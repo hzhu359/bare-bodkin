@@ -1,0 +1,54 @@
+* {
+    font-family: 'Oxygen', sans-serif;
+}
+
+h1 {
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: 900;
+    font-size: 100px;
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+
+p {
+    margin-top: 10px;
+    font-size: 20px;
+    line-height: 30px;
+}
+.small {
+    font-size: 60%;
+}
+
+.row {
+    display: flex
+}
+
+.column {
+    margin-left: 10px;
+}
+
+#contactSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#contactBox {
+    width: 33%;
+    display:flex;
+    justify-content: space-between;
+}
+
+#mainImg {
+    margin-top: 10px;
+}
+
+#mailImage {
+    height: 28px;
+    width: auto;
+}
+
+#gitHubImage {
+    height: 28px;
+    width: auto;
+}
