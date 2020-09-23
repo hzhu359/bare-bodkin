@@ -13,8 +13,8 @@ h1 {
 
 p {
     margin-top: 10px;
-    font-size: 20px;
-    line-height: 30px;
+    font-size: 35px;
+    line-height: 40px;
 }
 .small {
     font-size: 60%;
@@ -25,6 +25,7 @@ p {
 }
 
 .column {
+    width: 40%;
     margin-left: 10px;
 }
 
@@ -34,12 +35,15 @@ p {
     align-items: center;
 }
 #contactBox {
-    width: 33%;
+    /* width: 33%; */
+    width: 100%;
     display:flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 #mainImg {
+    width: 100%;
+    height: auto;
     margin-top: 10px;
 }
 
