@@ -1,14 +1,19 @@
 * {
     font-family: 'Oxygen', sans-serif;
 }
+body {
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
 h1 {
-    display: flex;
-    flex-wrap: wrap;
     font-weight: 900;
     font-size: 100px;
-    margin-bottom: 20px;
-    margin-top: 0;
+    margin: 0px 30px 0px 30px;
+    text-align: center;
 }
 
 p {
@@ -21,12 +26,12 @@ p {
 }
 
 .row {
-    display: flex
+    display: flex;
 }
 
 .column {
-    width: 40%;
-    margin-left: 10px;
+    flex-grow: 1;
+    padding: 20px;
 }
 
 #contactSection {
@@ -38,13 +43,18 @@ p {
     /* width: 33%; */
     width: 100%;
     display:flex;
-    justify-content: space-around;
+    justify-content: center;
+}
+
+.contactBlob {
+    margin: 0px 10px 0px 10px;
 }
 
 #mainImg {
-    width: 100%;
+    width: 40vw;
+    /* width: 100%; */
     height: auto;
-    margin-top: 10px;
+    /* margin-top: 10px; */
 }
 
 #mailImage {
