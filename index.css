@@ -1,7 +1,23 @@
 * {
-    font-family: 'Oxygen', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
-body {
+
+.hereBox {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-size: 5vw;
+    font-weight: bold;
+    text-decoration: dashed;
+    color: #c5a2c8 ;
+    text-decoration: none;
+}
+.hereBox :visited, .hereBox :link{
+    color: #c5a2c8;
+}
+/* body {
     margin-left: 100px;
     margin-right: 100px;
     display: flex;
@@ -41,7 +57,7 @@ p {
 }
 #contactBox {
     /* width: 33%; */
-    width: 100%;
+    /* width: 100%;
     display:flex;
     justify-content: center;
 }
@@ -52,11 +68,10 @@ p {
 
 #mainImg {
     width: 40vw;
-    /* width: 100%; */
+    width: 100%;
     height: auto;
-    /* margin-top: 10px; */
+    margin-top: 10px;
 }
-
 #mailImage {
     height: 28px;
     width: auto;
@@ -66,4 +81,4 @@ p {
     height: 28px;
     width: auto;
 }
-/* f */
+*/
